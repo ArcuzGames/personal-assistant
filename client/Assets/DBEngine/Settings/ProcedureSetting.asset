@@ -12,5 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 884a2ab9927c9484da1e7ac01a114e30, type: 3}
   m_Name: ProcedureSetting
   m_EditorClassIdentifier: DBEngine::DBEngine.ProcedureSetting
-  availableProcedureTypeNames: []
-  entranceProcedureTypeName: 
+  availableProcedureTypeNames:
+  - Procedure.ProcedureClearCache
+  - Procedure.ProcedureCreateDownloader
+  - Procedure.ProcedureDownloadFile
+  - Procedure.ProcedureDownloadOver
+  - Procedure.ProcedureInitPackage
+  - Procedure.ProcedureInitResources
+  - Procedure.ProcedureLaunch
+  - Procedure.ProcedureLoadAssembly
+  - Procedure.ProcedurePreload
+  - Procedure.ProcedureSplash
+  - Procedure.ProcedureStartGame
+  entranceProcedureTypeName: Procedure.ProcedureSplash
