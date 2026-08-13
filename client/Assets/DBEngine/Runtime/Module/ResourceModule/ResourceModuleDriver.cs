@@ -70,7 +70,7 @@ namespace DBEngine
         {
             get
             {
-#if UNITY_EDITOR && false
+#if UNITY_EDITOR
                 //编辑器模式使用。
                 return (EPlayMode)UnityEditor.EditorPrefs.GetInt("EditorPlayMode");
 #else

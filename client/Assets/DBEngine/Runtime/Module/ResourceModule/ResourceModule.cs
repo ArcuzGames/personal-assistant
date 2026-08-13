@@ -133,7 +133,7 @@ namespace DBEngine
 
         public async UniTask<InitializationOperation> InitPackage(string packageName, bool needInitMainFest = false)
         {
-#if UNITY_EDITOR && false
+#if UNITY_EDITOR
             //编辑器模式使用。
             EPlayMode playMode = (EPlayMode)UnityEditor.EditorPrefs.GetInt("EditorPlayMode");
             Log.Warning($"Editor Module Used :{playMode}");

@@ -190,7 +190,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7696541955266276700}
   - component: {fileID: 7696541955266276701}
-  - component: {fileID: 5781201025131540274}
   - component: {fileID: 7696541955266276690}
   m_Layer: 0
   m_Name: GameEntry
@@ -232,18 +231,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a112ff5c85f7d0d43b3c50fecfea5cea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5781201025131540274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7696541955266276702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a112ff5c85f7d0d43b3c50fecfea5cea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GameEntry
 --- !u!114 &7696541955266276690
 MonoBehaviour:
   m_ObjectHideFlags: 0
