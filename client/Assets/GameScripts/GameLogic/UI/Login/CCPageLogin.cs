@@ -22,8 +22,15 @@ namespace GameLogic
 		{
             await UniTask.Yield();
             Debug.Log("点击登录");
+			GameModule.UI.ShowUIAsync<CCPageLoading>();
 		}
 		#endregion
 
+		// OnUpdate
+		protected override void OnUpdate()
+		{
+			base.OnUpdate();
+			Debug.Log("CCPageLogin OnUpdate");
+		}
 	}
 }
