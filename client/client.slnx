@@ -2,6 +2,7 @@
   <Project Path="DBEngine.csproj" />
   <Project Path="Assembly-CSharp-Editor.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="GameLogic.csproj" />
   <Project Path="DBEngine.Editor.csproj" />
   <Project Path="Launcher.csproj" />
 </Solution>
